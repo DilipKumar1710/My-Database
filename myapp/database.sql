@@ -40,3 +40,34 @@
 -- (20, "Party Wear Shoes", "https://img.freepik.com/free-photo/shoes_1203-8153.jpg?w=740&t=st=1684570090~exp=1684570690~hmac=c0cbe8851832cf1ff318ffc43d867663923003027b6995bc222bf6141cdcc296", 899.00, 4.2, "shoes");
 
 -- SELECT * FROM shopping_cart;
+
+-- DELETE FROM todotasks;
+
+-- SELECT * FROM todotasks;
+
+-- ALTER TABLE
+--     todotasks
+-- ADD
+--     is_checked VARCHAR(200);
+
+-- PRAGMA TABLE_INFO(todotasks);
+
+-- DROP TABLE todotasks;
+
+-- CREATE TABLE todotasks(
+--     task_id INTEGER NOT NULL PRIMARY KEY,
+--     task_name VARCHAR(300),
+--     is_checked BOOLEAN
+--     );
+
+
+-- INSERT INTO todotasks(task_id, task_name, is_checked)
+-- VALUES 
+-- (0, "Learn HTML", false),
+-- (1, "Learn Java", false),
+-- (2, "Learn CSS", false),
+-- (3, "Learn Javascript", false),
+-- (4, "Learn Bootstrap", false),
+-- (5, "Learn SQL", false);
+
+-- SELECT * FROM todotasks;
